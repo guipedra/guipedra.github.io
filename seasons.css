@@ -1,0 +1,284 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #ddd;
+  font-family: Arial, sans-serif;
+}
+
+header, nav, section, footer {
+  background: white;
+}
+
+header {
+  background-color: #29d113;
+  color: black;
+  text-align: center;
+  font-size: 40px;
+  padding: 20px;
+}
+
+nav {
+  background-color: blue;
+  padding: 20px;
+  text-align: center;
+}
+
+section {
+  background-color: #29d113;
+  width: 96%;
+  float: center;
+  padding: 2%;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.fallpicture {
+  float: right;
+  width: 25%;
+  margin: 5px;
+}
+
+.fall header {
+  background-color: #ffaa00;
+  color: black;
+  text-align: center;
+  font-size: 40px;
+  padding: 20px;
+}
+
+.fall nav {
+  padding: 20px;
+  text-align: center;
+  background-color: red;
+}
+
+.fall nav a:hover {
+  background-color: maroon;
+}
+
+body.fall {
+  margin:0;
+  padding:100px;
+  background: url("fallbackground.jpg") no-repeat fixed;
+  background-size: cover;
+  position: relative;
+  overflow: auto;
+}
+
+.fall section {
+  background-color: #ffaa00;
+  width: 96%;
+  float: center;
+  padding: 2%;
+}
+
+.fall footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.summerpicture {
+  float: right;
+  width: 25%;
+  margin: 5px;
+}
+
+.summer header {
+  background-color: #fff75c;
+  color: black;
+  text-align: center;
+  font-size: 40px;
+  padding: 20px;
+}
+
+.summer nav {
+  padding: 20px;
+  text-align: center;
+  background-color: #38deff;
+}
+
+.summer nav a:hover {
+  background-color: #00cef7;
+}
+
+body.summer {
+  margin:0;
+  padding:100px;
+  background: url("summerbackground.jpg") no-repeat fixed;
+  background-size: cover;
+  position: relative;
+  overflow: auto;
+}
+
+.summer section {
+  background-color: #fff75c;
+  width: 96%;
+  float: center;
+  padding: 2%;
+}
+
+.summer footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.winterpicture {
+  float: right;
+  width: 25%;
+  margin: 5px;
+}
+
+.winter header {
+  background-color: #6026ff;
+  color: black;
+  text-align: center;
+  font-size: 40px;
+  padding: 20px;
+}
+
+.winter nav {
+  padding: 20px;
+  text-align: center;
+  background-color: #9c95ad;
+}
+
+.winter nav a:hover {
+  background-color: #b8afcc;
+}
+
+body.winter {
+  margin:0;
+  padding:110px;
+  background: url("winterbackground.jpg") no-repeat fixed;
+  background-size: cover;
+  position: relative;
+  overflow: auto;
+}
+
+.winter section {
+  background-color: #6026ff;
+  width: 96%;
+  float: center;
+  padding: 2%;
+}
+
+.winter footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.springpicture {
+  float: right;
+  width: 25%;
+  margin: 5px;
+}
+
+.spring header {
+  background-color: #ba1efc;
+  color: black;
+  text-align: center;
+  font-size: 40px;
+  padding: 20px;
+}
+
+.spring nav {
+  padding: 20px;
+  text-align: center;
+  background-color: #28c900;
+}
+
+.spring nav a:hover {
+  background-color: #23a802;
+}
+
+body.spring {
+  margin:0;
+  padding:110px;
+  background: url("springbackground.jpg") no-repeat fixed;
+  background-size: cover;
+  position: relative;
+  overflow: auto;
+}
+
+.spring section {
+  background-color: #ba1efc;
+  width: 96%;
+  float: center;
+  padding: 2%;
+}
+
+.spring footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+#wrap {
+  margin: 0 auto;
+  width: 75%;
+}
+
+nav li {
+  display: inline;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+  font-size: 120%;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+nav a:hover {
+  background-color: darkblue;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+.seasons {
+  width: 35%;
+  float: right;
+  margin: 0 0 20px 40px;
+}
+
+@media only screen and (max-width: 800px) {
+  body {
+    background-color: lightblue;
+  }
+  #wrap {
+    width: 100%;
+  }
+ li {
+    display: block;
+  }
+  nav a {
+    display: block;
+    padding: 10px;
+  }
+  nav a:hover {
+    background-color: transparent;
+  }
+  .seasons {
+    float: none;
+    width: 90%;
+    margin: 5px;
+    display:none;
+  }
+}
